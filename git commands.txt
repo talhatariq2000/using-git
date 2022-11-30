@@ -1,0 +1,30 @@
+git --help to show help
+
+git init    - create a .git folder to initialize git in a folder
+
+
+git config --global ... - configure git
+
+
+git add <filename>  - add file to track in a repo (*.html to add all html files | . to add all files)
+git rm --cached <filename>   - untrack a file
+
+
+git status  - check current status of branches
+
+
+git restore <filename>  - undo changes in file
+
+
+git commit  - commit changes ( ctrl+w to exit vscode ) ( for Vim use i to start writing and esc to stop writing :wq to exit )
+
+
+git branch  - list branches
+git branch <branchname> - create branch
+git checkout <branchname>   - switch branch
+git branch --delete <branchname>    - delete branch
+git merge <branchname>  - merge with a branch   ( for vim use i to write esc to stop writing :wq to exit )
+
+
+git remote  - listing remote github repos
+git remote add origin <links>   - linking remote git repo
