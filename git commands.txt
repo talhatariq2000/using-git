@@ -40,3 +40,6 @@ git push origin main    - push committed files to remote repo
 git clone <link>    - clone remote repo
 
 git pull    - pull changes from remote repo
+
+
+git mv <filename> <newname> - rename a file
