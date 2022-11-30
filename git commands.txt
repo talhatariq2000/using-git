@@ -28,3 +28,6 @@ git merge <branchname>  - merge with a branch   ( for vim use i to write esc to 
 
 git remote  - listing remote github repos
 git remote add origin <links>   - linking remote git repo
+
+
+git branch -M main  - change branchname from master to main
