@@ -9,9 +9,10 @@ git config --global ... - configure git
 
 git add <filename>  - add file to track in a repo (*.html to add all html files | . to add all files)
 git rm --cached <filename>   - untrack a file
+git mv <filename> <newname> - rename a file
 
 
-git status  - check current status of branches
+git status  - check current status of branches ( use -s for concise )
 
 
 git restore <filename>  - undo changes in file
@@ -39,7 +40,21 @@ git push origin main    - push committed files to remote repo
 
 git clone <link>    - clone remote repo
 
+
 git pull    - pull changes from remote repo
 
 
-git mv <filename> <newname> - rename a file
+git diff --staged   - compare staged file
+
+
+git log - view history of commits  ( space to navigate ) ( use --oneline to concise ) ( --reverse to reverse list )
+
+git show <commit-id / HEAD> - id to view a specefic commit OR HEAD to view the last commit ( HEAD~<number> the number of commits before head )
+            //             :<filename>  - view specefic file in earlier commit
+git ls-tree HEAD~<number>   - view all file list in a commit
+git show <file-git-id>  - use unique file id to view a file in a commit
+
+git restore --staged <filename> - restore changes from staging area to working dir ( use . in filename to restore everything )
+git restore --source=HEAD~1 <filename>  - restore file from a previous commit
+
+git clean   - undo untracked changes
