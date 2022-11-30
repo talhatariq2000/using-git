@@ -35,3 +35,6 @@ git branch -M main  - change branchname from master to main
 
 
 git push origin main    - push committed files to remote repo
+
+
+git clone <link>    - clone remote repo
