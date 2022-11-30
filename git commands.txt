@@ -1,4 +1,5 @@
 git --help to show help
+git <command> --help    - show help for command
 
 git init    - create a .git folder to initialize git in a folder
 
@@ -19,7 +20,7 @@ git restore <filename>  - undo changes in file
 git commit  - commit changes ( ctrl+w to exit vscode ) ( for Vim use i to start writing and esc to stop writing :wq to exit )
 
 
-git branch  - list branches
+git branch  - list branches (--all to list all local and remote branches)
 git branch <branchname> - create branch
 git checkout <branchname>   - switch branch
 git branch --delete <branchname>    - delete branch
@@ -31,3 +32,6 @@ git remote add origin <links>   - linking remote git repo
 
 
 git branch -M main  - change branchname from master to main
+
+
+git push origin main    - push committed files to remote repo
